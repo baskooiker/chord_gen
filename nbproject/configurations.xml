@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ChordGen" displayName="ChordGen" projectFiles="true">
+      <logicalFolder name="dist" displayName="dist" projectFiles="true">
+        <logicalFolder name="Debug" displayName="Debug" projectFiles="true">
+          <logicalFolder name="Cygwin_4.x-Windows"
+                         displayName="Cygwin_4.x-Windows"
+                         projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="MinGW-Windows"
+                         displayName="MinGW-Windows"
+                         projectFiles="true">
+            <itemPath>../ChordGen/dist/Debug/MinGW-Windows/chordgen.exe</itemPath>
+            <itemPath>../ChordGen/dist/Debug/MinGW-Windows/chordgentestproject.exe</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../ChordGen/Chord.cpp</itemPath>
+      <itemPath>../ChordGen/Chord.h</itemPath>
+      <itemPath>../ChordGen/ChordGen.cpp</itemPath>
+      <itemPath>../ChordGen/ChordGen.h</itemPath>
+      <itemPath>../ChordGen/ChordSequence.cpp</itemPath>
+      <itemPath>../ChordGen/ChordSequence.h</itemPath>
+      <itemPath>../ChordGen/Makefile</itemPath>
+      <itemPath>../ChordGen/Scale.cpp</itemPath>
+      <itemPath>../ChordGen/Scale.h</itemPath>
+      <itemPath>../ChordGen/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>chord_gen-help.pd</itemPath>
+      <itemPath>chord_gen-meta.pd</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>chord_gen.cpp</itemPath>
+      <itemPath>m_pd.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../utils</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW_TDM|MinGW_TDM</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../ChordGen/Chord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/Chord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordGen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordSequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordSequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/Scale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/Scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/dist/Debug/MinGW-Windows/chordgen.exe"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ChordGen/dist/Debug/MinGW-Windows/chordgentestproject.exe"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ChordGen/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chord_gen-help.pd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chord_gen-meta.pd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chord_gen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="m_pd.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW_TDM|MinGW_TDM</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../ChordGen/Chord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/Chord.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordGen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordSequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/ChordSequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/Scale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ChordGen/Scale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ChordGen/dist/Debug/MinGW-Windows/chordgen.exe"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ChordGen/dist/Debug/MinGW-Windows/chordgentestproject.exe"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ChordGen/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chord_gen-help.pd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chord_gen-meta.pd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chord_gen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="m_pd.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
