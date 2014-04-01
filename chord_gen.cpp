@@ -136,6 +136,7 @@ void *chord_gen_new(t_symbol *s, int argc, t_atom *argv) {
             chord_gen_class);
 
     x->cg = new ChordGen();
+    x->cg->generate();
 
     x->out1 = outlet_new(&x->x_obj, &s_list);
 
