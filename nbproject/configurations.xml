@@ -56,7 +56,6 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../utils</Elem>
     <Elem>.</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
